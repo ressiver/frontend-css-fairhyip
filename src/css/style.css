@@ -7,15 +7,18 @@ h1{
     font-size: 22px;
     color: #c9b18c;
     font-family: 'Georgia','Times New Roman', serif;
+    margin-bottom: 20px;
 }
 h2{
     font-size: 18px;
     color: #ded27a;
     font-family: 'Georgia','Times New Roman', sans-serif;
+    margin-bottom: 1em;
 }
 p{
     font-size: 11px;
     color: #c0b4aa; 
+    line-height: 1.5em;
 }
 .wrapper{
     width: 1000px;
