@@ -60,10 +60,11 @@ p{
      border-left: none;
  }
  /*logo*/
- .logo{
-    display: inline-block;
+ .header .logo img {
     position: absolute;
-    margin: 70px 0 0 130px;
+    left: -110px;
+    width: 225px;
+    height: auto;
 }
 /*auht*/
 .auth {
@@ -147,4 +148,51 @@ p{
     top: 50%;
     left: 20px;
     transform:translateY(-50%);
+}
+/*footer*/
+
+.footer {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 76px;
+    position: relative;
+    border-top: 1px solid #a28243;
+    margin: auto;
+}
+
+.footer .copyright {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: #f9da5a;
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 43px;
+    margin-bottom: 22px;
+}
+
+.footermenu {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    right: 0;
+    bottom: 0;
+    margin-top: 43px;
+    margin-bottom: 22px;
+}
+.footermenu > .menu-list > .menu-item {
+    display: inline-block;
+    border-left: 1px solid #e7e3e1;
+
+}
+.footermenu > .menu-list > .menu-item:first-child {
+    border-left: none;
+}
+
+
+.footermenu .menu-list a {
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
