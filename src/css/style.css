@@ -1,0 +1,112 @@
+body{
+    background: url(../images/bg_body.jpg);
+    font-size: 11px;
+    font-family: Verdana, sans-serif;
+}
+h1{
+    font-size: 22px;
+    color: #c9b18c;
+    font-family: 'Georgia','Times New Roman', serif;
+}
+h2{
+    font-size: 18px;
+    color: #ded27a;
+    font-family: 'Georgia','Times New Roman', sans-serif;
+}
+p{
+    font-size: 11px;
+    color: #c0b4aa; 
+}
+/*header*/
+.header{
+    position: relative;
+}
+/*lang-list*/
+.lang-list {
+    font-size: 11px;
+    position: a;
+    top: 0;
+    left: 0;
+    margin: 40px 0 0 20px;
+}
+.lang-list > .lang-item {
+     display: inline-block;
+     vertical-align: top;
+     border-left: 1px solid #ffffff;
+     white-space: nowrap;
+     padding: 0 10px 0;
+ }
+ 
+ .lang-list > .lang-item:first-child {
+     color: #c9b18c;
+     border-left: none;
+ }
+ 
+ .lang-list > .lang-item:nth-child(2) a {
+     color: #ffffff;
+ }
+ .lang-list > .lang-item:nth-child(3) a{
+     text-decoration: none;
+ }
+
+ .lang-list > .lang-item:last-child a {
+     border-right: none;
+     color: #ffffff;
+     border-left: none;
+ }
+ /*logo*/
+ .logo{
+    display: inline-block;
+    position: absolute;
+    margin: 70px 0 0 130px;
+}
+/*auht*/
+.auth {
+    position: absolute;
+    top: 41px;
+    right: 21px;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+}
+
+.auth > .auth-link a {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+.auth .signin a {
+    border-right: 1px solid white;
+    color: #e8d1a4;
+}
+/*mainmenu*/
+.header .mainmenu {
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    width: auto;
+}
+
+.header .menu-list{
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #f6f5f4;
+    font-size: 14px;
+  }
+
+.header .menu-item{
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.header .menu-item a{
+    text-decoration: none;
+    color: #461500;
+    padding: 12px 29px;
+    line-height: 36px;
+}
+
+.header .mainmenu li:active{
+    background-image: url(../images/bg_menu-item-active.png);
+    background-size: 150px 39px;
+}
