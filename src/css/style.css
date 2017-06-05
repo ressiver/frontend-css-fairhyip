@@ -17,6 +17,11 @@ p{
     font-size: 11px;
     color: #c0b4aa; 
 }
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
 /*header*/
 .header{
     position: relative;
@@ -109,4 +114,37 @@ p{
 .header .mainmenu li:active{
     background-image: url(../images/bg_menu-item-active.png);
     background-size: 150px 39px;
+}
+
+/*content*/
+.content .promo {
+    box-sizing: border-box;
+    background-image: url(../images/bg_about.png), url(../images/bg_promo.png);
+    background-repeat: no-repeat, repeat;
+    background-position: 55px 50%;
+    border-radius: 9px;
+    height: 156px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #f9da5a;
+    line-height: 22px;
+    padding-top: 24px;
+    padding-left: 146px;
+    padding-right: 45px;
+}    
+.content .article {
+    position: relative;
+    margin-top: 3em;
+    padding-left: 145px;
+}
+.article img{
+    display: block;
+    width: 90px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform:translateY(-50%);
 }
