@@ -1,3 +1,4 @@
+/*main*/
 body{
     background: url(../images/bg_body.jpg);
     font-size: 11px;
@@ -23,10 +24,6 @@ p{
 .wrapper{
     width: 1000px;
     margin: auto;
-    position: relative;
-}
-/*header*/
-.header{
     position: relative;
 }
 /*lang-list*/
@@ -63,16 +60,16 @@ p{
      border-left: none;
  }
  /*logo*/
- .header .logo img {
+.logo img {
     position: absolute;
-    left: -110px;
     width: 225px;
     height: auto;
+    margin-top: 25px;
 }
 /*auht*/
 .auth {
     position: absolute;
-    top: 41px;
+    top: 0px;
     right: 21px;
     font-family: Verdana, sans-serif;
     font-size: 11px;
@@ -89,11 +86,15 @@ p{
     color: #e8d1a4;
 }
 /*mainmenu*/
+.header{
+    position: relative;
+}
 .header .mainmenu {
     position: absolute;
     right: 100px;
-    top: 120px;
+    top: 80px;
     width: auto;
+    margin-right: -95px;
 }
 
 .header .menu-list{
@@ -137,6 +138,7 @@ p{
     padding-top: 24px;
     padding-left: 146px;
     padding-right: 45px;
+    margin-top: 150px;
 }    
 .content .article {
     position: relative;
@@ -157,7 +159,7 @@ p{
 .footer {
     box-sizing: border-box;
     width: 1000px;
-    height: 76px;
+    height: 70px;
     position: relative;
     border-top: 1px solid #a28243;
     margin: auto;
